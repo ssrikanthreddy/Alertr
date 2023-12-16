@@ -2,14 +2,15 @@ const Dashboard = () => {
 
     
   return (
-    <>
+    <div id="dashboard_page" className="flex flex-col h-screen">
       <div>Dashboard</div>
-      <div className="navbar">
-        <div>Live Inventory</div>
-        <div>✨AI Predictive Analysis</div>
-        <div>Settings</div>
-    </div>
-
+      <nav>
+        <ul className="flex flex-row gap-10">
+            <li>Live Inventory</li>
+            <li>✨ Predictive AI </li>
+            <li> Settings</li>
+        </ul>
+      </nav>
 
     <div className='inventory_page'>
         Inventory Content
@@ -22,7 +23,7 @@ const Dashboard = () => {
     <div className='settings_page'>
         Settings Content
     </div>
-    </>
+    </div>
   );
 };
 
