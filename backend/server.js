@@ -1,32 +1,45 @@
 const express = require('express');
+const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 
 const app = express();
-const port = 3001; // Change this to your desired port
+const port = 3001;
 
-// SQLite database configuration
-const dbPath = 'inventory.db'; // Replace with your actual SQLite database file path
-const db = new sqlite3.Database(dbPath);
+// Enable CORS
+app.use(cors());
 
-// Example route to run an SQLite query
-app.get('/api/queryExample', (req, res) => {
-  // Example SQLite query
-  const query = 'SELECT * FROM your_table_name LIMIT 10';
+// Connect to the SQLite database
+const db = new sqlite3.Database('inventory.db');
 
-  // Execute the query
-  db.all(query, (error, results) => {
-    if (error) {
-      console.error('Error executing SQLite query:', error);
-      res.status(500).json({ error: 'Error executing SQLite query' });
-      return;
+// Endpoint for the /pull route
+app.get('/pull/:query', (req, res) => {
+  const userQuery = req.params.query;
+
+  db.all(userQuery, (err, rows) => {
+    if (err) {
+      console.error('Error executing query:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json({ tableName: 'products', data: rows });
     }
-
-    // Send the query results as JSON
-    res.json(results);
   });
 });
 
-// Start the server
-app.listen(port, () => {
+// Start the Express server
+const server = app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
+});
+
+// Close the database connection when the application is shutting down
+process.on('SIGINT', () => {
+  server.close(() => {
+    console.log('Express server is shutting down.');
+    db.close((err) => {
+      if (err) {
+        return console.error('Error closing database connection:', err.message);
+      }
+      console.log('Database connection closed.');
+      process.exit(0);
+    });
+  });
 });
