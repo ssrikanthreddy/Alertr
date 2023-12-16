@@ -1,4 +1,4 @@
-import DB from "./DB";
+import DB from './DB';
 
 const Expiry = () => {
   const handleButtonClick = async () => {
@@ -13,7 +13,7 @@ const Expiry = () => {
   };
 
   return (
-    <div>
+    <div className="w-full bg-tertiary">
       <button
         className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom"
         onClick={handleButtonClick}
@@ -21,9 +21,13 @@ const Expiry = () => {
         Ping Me
       </button>
 
-      <DB userQuery={
-        "Select * from products where expiry_date < '2024-03-18' ;"
-      }/>
+      <div className="border-t-2 border-dark">
+        <DB
+          userQuery={
+            "Select * from products where expiry_date < '2024-03-18' ;"
+          }
+        />
+      </div>
     </div>
   );
 };
