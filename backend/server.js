@@ -8,6 +8,19 @@ const port = 3001;
 // Enable CORS
 app.use(cors());
 
+app.get('/api/triggerAction', (req, res) => {
+  // Perform some action on the server
+
+  fetch('https://ntfy.sh/expiry', {
+    method: 'POST',
+    body: 'Paracetamol Expires this week!'
+})
+
+
+  console.log('Action triggered on the server');
+  res.send('Action triggered successfully');
+});
+
 // Connect to the SQLite database
 const db = new sqlite3.Database('inventory.db');
 
