@@ -26,24 +26,26 @@ const LandingPage = () => {
               <Link to="/dashboard">Dashboard</Link>
             </li>
             <li className="font-custom ml-4 cursor-pointer font-semibold">
-              <a href="https://github.com/ssrikanthreddy/Alertr">Github</a>
+              <a href="https://github.com/ssrikanthreddy/Alertr">GitHub</a>
             </li>
           </ul>
         </nav>
         {/* Hero */}
-        <div className="flex flex-col flex-start">
+        <div className="flex flex-col flex-start ">
           <h1 className="text-8xl text-dark font-custom font-semibold mb-10">
             Stay Informed, <br />
             Stay <span className="text-secondary">Ahead</span>
           </h1>
-          <div className="text-tertiary font-custom mb-10 w-3/4">
-            Keeping your shelves up-to-date with and patients safe with timely
+          <p className="text-tertiary font-custom mb-10 w-3/4">
+            Keeping your shelves up-to-date and patients safe with timely
             notifications on expiring medicines.
-          </div>
+          </p>
           <div>
-            <button className="bg-dark py-4 px-5 border-0 rounded-3xl text-white font-custom">
-              <Link to="/dashboard">Get Started</Link>
-            </button>
+            <Link to="/dashboard">
+              <button className="bg-dark py-4 px-5 border-0 rounded-3xl text-white font-custom">
+                Get Started
+              </button>
+            </Link>
           </div>
         </div>
       </div>
