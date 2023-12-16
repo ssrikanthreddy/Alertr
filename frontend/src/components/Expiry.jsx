@@ -1,3 +1,5 @@
+import DB from "./DB";
+
 const Expiry = () => {
   const handleButtonClick = async () => {
     try {
@@ -18,6 +20,10 @@ const Expiry = () => {
       >
         Ping Me
       </button>
+
+      <DB userQuery={
+        "Select * from products where expiry_date < '2024-03-18' ;"
+      }/>
     </div>
   );
 };

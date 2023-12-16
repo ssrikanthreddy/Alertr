@@ -29,7 +29,7 @@ const DB = ({ userQuery }) => {
     <div className="w-full">
       <table className="bg-tertiary table-auto border-0 w-full rounded-md text-primary">
         <thead>
-          <tr className="border-b-2 ">
+          <tr className="border-b-2 border-green-900">
             <th className="py-4 px-4 text-2xl text-center">Name</th>
             <th className="py-4 px-4 text-2xl text-center">Quantity</th>
             <th className="py-4 px-4 text-2xl text-center">Price</th>
