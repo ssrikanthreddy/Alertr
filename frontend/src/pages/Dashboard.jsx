@@ -16,7 +16,7 @@ const Dashboard = () => {
     },
 
     {
-      id:3,
+      id: 3,
       name: 'Expiry Radar',
       path: '/dashboard/expiry',
     },
@@ -30,7 +30,9 @@ const Dashboard = () => {
   return (
     <div id="dashboard_page" className="bg-primary  p-2">
       <div className="flex flex-col p-8 items-center md:flex-row md:mt-0">
-        <h1 className="font-custom text-3xl mr-8 font-bold">Dashboard</h1>
+        <h1 className="font-custom text-dark text-3xl mr-8 font-bold">
+          Dashboard
+        </h1>
         <div className="mt-4 md:mt-0">
           <Navbar LinkArray={navs} />
         </div>
