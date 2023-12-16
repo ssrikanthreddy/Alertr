@@ -3,7 +3,7 @@
 
   }
 
-li:not(.active):hover {
+#item:not(.active):hover {
   --tw-bg-opacity: 1;
     background-color: rgb(157 192 139 / var(--tw-bg-opacity));  
 }
