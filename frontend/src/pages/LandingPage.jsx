@@ -19,13 +19,13 @@ const LandingPage = () => {
             <p className="font-custom ml-1 text-3xl text-tertiary">Alertr</p>
           </div>
           <ul className="flex items-center justify-around m-0 bg-tertiary border-0 rounded-3xl p-3">
-            <li className="font-custom ml-6 mr-4 text cursor-pointer font-semibold text-primary">
+            <li className="font-custom ml-6 mr-4 text cursor-pointer font-medium text-primary">
               <a href="/">Home</a>
             </li>
-            <li className="font-custom mx-4 cursor-pointer font-semibold text-primary">
+            <li className="font-custom mx-4 cursor-pointer font-medium text-primary">
               <Link to="/dashboard">Dashboard</Link>
             </li>
-            <li className="font-custom mx-4 cursor-pointer font-semibold text-primary">
+            <li className="font-custom mx-4 cursor-pointer font-medium text-primary">
               <a href="https://github.com/ssrikanthreddy/Alertr">GitHub</a>
             </li>
           </ul>
