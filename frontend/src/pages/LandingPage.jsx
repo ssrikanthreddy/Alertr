@@ -16,16 +16,16 @@ const LandingPage = () => {
             <a href="/">
               <Alertrlogo />
             </a>
-            <p className="font-custom ml-1 text-3xl text-secondary">Alertr</p>
+            <p className="font-custom ml-1 text-3xl text-tertiary">Alertr</p>
           </div>
-          <ul className="flex items-center justify-around m-0">
-            <li className="font-custom ml-6 mr-4 text cursor-pointer font-semibold">
+          <ul className="flex items-center justify-around m-0 bg-tertiary border-0 rounded-3xl p-3">
+            <li className="font-custom ml-6 mr-4 text cursor-pointer font-semibold text-primary">
               <a href="/">Home</a>
             </li>
-            <li className="font-custom mx-4 cursor-pointer font-semibold">
+            <li className="font-custom mx-4 cursor-pointer font-semibold text-primary">
               <Link to="/dashboard">Dashboard</Link>
             </li>
-            <li className="font-custom ml-4 cursor-pointer font-semibold">
+            <li className="font-custom mx-4 cursor-pointer font-semibold text-primary">
               <a href="https://github.com/ssrikanthreddy/Alertr">GitHub</a>
             </li>
           </ul>
@@ -34,15 +34,15 @@ const LandingPage = () => {
         <div className="flex flex-col flex-start ">
           <h1 className="text-8xl text-dark font-custom font-semibold mb-10">
             Stay Informed, <br />
-            Stay <span className="text-secondary">Ahead</span>
+            Stay <span className="text-tertiary">Ahead</span>
           </h1>
-          <p className="text-tertiary font-custom mb-10 w-3/4">
+          <p className="text-secondary font-custom mb-10 w-3/4">
             Keeping your shelves up-to-date and patients safe with timely
             notifications on expiring medicines.
           </p>
           <div>
             <Link to="/dashboard">
-              <button className="bg-dark py-4 px-5 border-0 rounded-3xl text-white font-custom">
+              <button className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom">
                 Get Started
               </button>
             </Link>
