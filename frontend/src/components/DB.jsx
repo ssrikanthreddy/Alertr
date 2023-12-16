@@ -28,12 +28,12 @@ const DB = ({ userQuery }) => {
   return (
     <div>
       <ul>
-        {data.map((item) => (
-          <li key={item.id}>
-            {item.product_name} - Quantity: {item.quantity}, Price: $
-            {item.price}, Expires on: {item.expiry_date}
-          </li>
-        ))}
+          {data.map((item) => (
+            <li key={item.id}>
+              {item.product_name} - Quantity: {item.quantity}, Price: $
+              {item.price}, Expires on: {item.expiry_date}
+            </li>
+          ))}
       </ul>
     </div>
   );
