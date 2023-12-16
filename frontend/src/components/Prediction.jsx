@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Prediction = () => {
-  return (
-    <div>Prediction</div>
-  )
-}
+  return <div>Prediction</div>;
+};
 
-export default Prediction
+export default Prediction;

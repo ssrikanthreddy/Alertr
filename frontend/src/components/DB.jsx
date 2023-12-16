@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const DB = ({userQuery}) => {
   const [data, setData] = useState([]);
@@ -10,13 +10,13 @@ const DB = ({userQuery}) => {
 
     // Make the API call
     fetch(`http://localhost:3001/pull/${encodeURIComponent(userQuery)}`)
-      .then(response => response.json())
-      .then(result => {
+      .then((response) => response.json())
+      .then((result) => {
         // Update the state with the data
         setData(result.data);
         console.log(result.data);
       })
-      .catch(err => {
+      .catch((err) => {
         // Handle errors
         setError(err.message || 'An error occurred while fetching data.');
       });
@@ -30,7 +30,7 @@ const DB = ({userQuery}) => {
     <div>
       <h2>Inventory Content</h2>
       <ul>
-        {data.map(item => (
+        {data.map((item) => (
           <li key={item.id}>
             {item.product_name} - Quantity: {item.quantity}, Price: ${item.price}, Expires on: {item.expiry_date}
           </li>
