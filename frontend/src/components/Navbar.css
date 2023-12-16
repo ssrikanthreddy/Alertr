@@ -2,3 +2,8 @@
     background-color: rgb(60 69 60 / var(--tw-bg-opacity));
 
   }
+
+li:not(.active):hover {
+  --tw-bg-opacity: 1;
+    background-color: rgb(157 192 139 / var(--tw-bg-opacity));  
+}
