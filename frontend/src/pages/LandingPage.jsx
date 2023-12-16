@@ -42,7 +42,7 @@ const LandingPage = () => {
           </div>
           <div>
             <button className="bg-dark py-4 px-5 border-0 rounded-3xl text-white font-custom">
-              Get Started
+              <Link to="/dashboard">Get Started</Link>
             </button>
           </div>
         </div>
