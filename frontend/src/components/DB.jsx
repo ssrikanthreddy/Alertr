@@ -29,21 +29,21 @@ const DB = ({ userQuery }) => {
     <div className="w-full">
       <table className="bg-tertiary table-auto border-0 w-full rounded-md text-primary">
         <thead>
-          <tr>
-            <th className="py-2 px-4 text-left">Name</th>
-            <th className="py-2 px-4 text-left">Quantity</th>
-            <th className="py-2 px-4 text-left">Price</th>
-            <th className="py-2 px-4 text-left">Expiry Date</th>
+          <tr className="border-b-2 ">
+            <th className="py-4 px-4 text-2xl text-center">Name</th>
+            <th className="py-4 px-4 text-2xl text-center">Quantity</th>
+            <th className="py-4 px-4 text-2xl text-center">Price</th>
+            <th className="py-4 px-4 text-2xl text-center">Expiry Date</th>
           </tr>
         </thead>
         <tbody>
           {data.map((item) => {
             return (
               <tr key={item.id} className="border-b border-gray-200  ">
-                <td className="py-2 px-4">{item.product_name}</td>
-                <td className="py-2 px-4">{item.quantity}</td>
-                <td className="py-2 px-4">{item.price}</td>
-                <td className="py-2 px-4">{item.expiry_date}</td>
+                <td className="py-2 px-4 text-center ">{item.product_name}</td>
+                <td className="py-2 px-4 text-center">{item.quantity}</td>
+                <td className="py-2 px-4 text-center">{item.price}</td>
+                <td className="py-2 px-4 text-center">{item.expiry_date}</td>
               </tr>
             );
           })}

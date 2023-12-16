@@ -37,7 +37,7 @@ const Dashboard = () => {
           <Navbar LinkArray={navs} />
         </div>
       </div>
-      <div className="flex mx-8 min-h-screen  border-0  border-secondary rounded-md mt-4">
+      <div className="flex mx-8 min-h-screen  border-0 bg-[#a5a3a337]  border-secondary rounded-md mt-4">
         <Outlet />
       </div>
     </div>
