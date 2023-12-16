@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <div
       id="hero"
-      className="flex flex-col justify-around px-4 pt-4 md:flex-row md:h-screen"
+      className=" w-[90%] flex flex-col justify-around px-4 pt-4 md:flex-row md:h-screen"
     >
       <div id="title" className="flex flex-col">
         {/* Navbar */}
