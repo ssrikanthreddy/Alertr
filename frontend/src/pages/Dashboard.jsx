@@ -1,3 +1,6 @@
+import { Link, Outlet } from "react-router-dom";
+
+
 const Dashboard = () => {
 
     
@@ -6,23 +9,13 @@ const Dashboard = () => {
       <div>Dashboard</div>
       <nav>
         <ul className="flex flex-row gap-10">
-            <li>Live Inventory</li>
-            <li>✨ Predictive AI </li>
-            <li> Settings</li>
+            <li><Link to="/dashboard/LiveInventory">Live Inventory</Link></li>
+            <li><Link to="/dashboard/Prediction">✨ Predictive AI </Link></li>
+            <li><Link to="/dashboard/Settings"> Settings</Link></li>
         </ul>
       </nav>
-
-    <div className='inventory_page'>
-        Inventory Content
-    </div>
-
-    <div className='ai_page'>
-        AI Content
-    </div>
-
-    <div className='settings_page'>
-        Settings Content
-    </div>
+        <Outlet/>
+   
     </div>
   );
 };
