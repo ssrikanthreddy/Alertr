@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Dashboard = () => {
 
     
   return (
     <>
-    <div>Dashboard</div>
-    <div className='navbar'>
+      <div>Dashboard</div>
+      <div className="navbar">
         <div>Live Inventory</div>
         <div>✨AI Predictive Analysis</div>
         <div>Settings</div>
@@ -25,7 +25,7 @@ const Dashboard = () => {
         Settings Content
     </div>
     </>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
