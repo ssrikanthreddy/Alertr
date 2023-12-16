@@ -11,14 +11,14 @@ const Expiry = () => {
   };
 
   return (
-    <>
+    <div>
       <button
         className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom"
         onClick={handleButtonClick}
       >
         Ping Me
       </button>
-    </>
+    </div>
   );
 };
 
