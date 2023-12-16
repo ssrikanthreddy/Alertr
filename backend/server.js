@@ -18,7 +18,7 @@ app.get('/api/triggerAction', (req, res) => {
 
 
   console.log('Action triggered on the server');
-  res.send('Action triggered successfully');
+  res.status(200).json({ code: 'ntfy called' });
 });
 
 // Connect to the SQLite database
