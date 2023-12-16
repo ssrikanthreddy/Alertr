@@ -6,7 +6,6 @@ import LiveInventory from './components/LiveInventory';
 import Prediction from './components/Prediction';
 import Settings from './components/Settings';
 
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -16,10 +15,9 @@ const router = createBrowserRouter([
     path: '/dashboard',
     element: <Dashboard />,
     children: [
-    {path:'/dashboard/LiveInventory/', element:<LiveInventory/>},
-    {path:'/dashboard/Prediction', element:<Prediction/>},
-    {path:'/dashboard/Settings', element:<Settings/>}
-
+      { path: '/dashboard/LiveInventory/', element: <LiveInventory /> },
+      { path: '/dashboard/Prediction', element: <Prediction /> },
+      { path: '/dashboard/Settings', element: <Settings /> },
     ],
   },
 ]);
