@@ -8,6 +8,7 @@ export default {
         secondary: '#92a560',
         tertiary: '#87a36e',
         dark: '#3c453c',
+        rgradient: '#e7f8e5',
       },
       fontFamily: {
         custom: 'Poppins, sans-serif',
