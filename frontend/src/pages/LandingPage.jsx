@@ -24,7 +24,7 @@ const LandingPage = () => {
                 <a href="/">Home</a>
               </li>
               <li className="font-custom mx-4 cursor-pointer font-medium text-primary">
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/dashboard/LiveInventory">Dashboard</Link>
               </li>
               <li className="font-custom mx-4 cursor-pointer font-medium text-primary">
                 <a href="https://github.com/ssrikanthreddy/Alertr">GitHub</a>
@@ -42,7 +42,7 @@ const LandingPage = () => {
               notifications on expiring medicines.
             </p>
             <div>
-              <Link to="/dashboard">
+              <Link to="/dashboard/LiveInventory">
                 <button className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom">
                   Get Started
                 </button>
