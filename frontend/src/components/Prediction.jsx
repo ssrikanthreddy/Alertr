@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Prediction = () => {
   const trendingMedicines = [
     { id: 1, name: 'Medicine A', trendScore: 80, historicalDemand: 'High' },

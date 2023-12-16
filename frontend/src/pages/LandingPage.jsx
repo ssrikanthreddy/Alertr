@@ -12,7 +12,7 @@ const LandingPage = () => {
       >
         <div id="title" className="flex flex-col">
           {/* Navbar */}
-          <nav className="flex justify-between mb-24 py-6 w-2/3">
+          <nav className="flex justify-between mb-10 py-6 w-2/3">
             <div className="flex items-center">
               <a href="/">
                 <Alertrlogo />
@@ -32,21 +32,45 @@ const LandingPage = () => {
             </ul>
           </nav>
           {/* Hero */}
-          <div className="flex flex-col flex-start ">
-            <h1 className="text-8xl text-dark font-custom font-semibold mb-10">
-              Stay Informed, <br />
-              Stay <span className="text-tertiary">Ahead</span>
-            </h1>
-            <p className="text-secondary font-custom mb-10 w-3/4">
-              Keeping your shelves up-to-date and patients safe with timely
-              notifications on expiring medicines.
-            </p>
+          <div className="flex flex-col h-full justify-around pb-8">
             <div>
-              <Link to="/dashboard/LiveInventory">
-                <button className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom">
-                  Get Started
+              <h1 className="text-8xl text-dark font-custom font-semibold mb-10">
+                Stay Informed, <br />
+                Stay <span className="text-tertiary">Ahead</span>
+              </h1>
+              <p className="text-secondary font-custom mb-10 w-3/4">
+                Keeping your shelves up-to-date and patients safe with timely
+                notifications on expiring medicines.
+              </p>
+
+              <div>
+                <Link to="/dashboard/LiveInventory">
+                  <button className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom">
+                    Get Started
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col">
+              <div className="mb-1">
+                <button className="bg-transparent mr-1 py-3 px-5 border-2 rounded-3xl border-dark text-dark font-custom">
+                  Healthcare
                 </button>
-              </Link>
+                <button className="bg-transparent mr-1 py-3 px-5 border-2 rounded-3xl border-dark text-dark font-custom">
+                  Inventory
+                </button>
+                <button className="bg-transparent mr-1 py-3 px-5 border-2 rounded-3xl border-dark text-dark font-custom">
+                  Analysis
+                </button>
+              </div>
+              <div>
+                <button className="bg-transparent py-3 px-5 border-2 rounded-3xl border-dark text-dark font-custom">
+                  Expiry
+                </button>
+                <button className="bg-transparent py-3 px-5 border-2 rounded-3xl border-dark text-dark font-custom">
+                  Pharmaceutical
+                </button>
+              </div>
             </div>
           </div>
         </div>
