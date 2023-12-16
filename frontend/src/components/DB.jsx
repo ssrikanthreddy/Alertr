@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-const DB = () => {
+const DB = ({userQuery}) => {
   const [data, setData] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     // Define the SQL query you want to execute
-    const userQuery = 'SELECT * FROM products';
+  
 
     // Make the API call
     fetch(`http://localhost:3001/pull/${encodeURIComponent(userQuery)}`)
@@ -14,6 +14,7 @@ const DB = () => {
       .then(result => {
         // Update the state with the data
         setData(result.data);
+        console.log(result.data);
       })
       .catch(err => {
         // Handle errors
@@ -31,7 +32,7 @@ const DB = () => {
       <ul>
         {data.map(item => (
           <li key={item.id}>
-            {item.name} - Quantity: {item.quantity}, Price: ${item.price}
+            {item.product_name} - Quantity: {item.quantity}, Price: ${item.price}, Expires on: {item.expiry_date}
           </li>
         ))}
       </ul>

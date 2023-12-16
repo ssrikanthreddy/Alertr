@@ -7,7 +7,7 @@ const LiveInventory = () => {
 
     <div>Live Inventory</div>
     <div id="data">
-    <DB/>
+    <DB userQuery={'SELECT * FROM products'}/>
         
     </div>
 
