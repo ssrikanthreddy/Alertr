@@ -28,14 +28,14 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div id="dashboard_page" className="bg-primary h-screen p-2">
+    <div id="dashboard_page" className="bg-primary  p-2">
       <div className="flex flex-col p-8 items-center md:flex-row md:mt-0">
         <h1 className="font-custom text-3xl mr-8 font-bold">Dashboard</h1>
         <div className="mt-4 md:mt-0">
           <Navbar LinkArray={navs} />
         </div>
       </div>
-      <div className="flex mx-8 h-[80%] border-2 border-dashed border-secondary rounded-md p-6">
+      <div className="flex mx-8 min-h-screen  border-2 border-dashed border-secondary rounded-md p-6">
         <Outlet />
       </div>
     </div>
