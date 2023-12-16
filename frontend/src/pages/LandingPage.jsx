@@ -37,7 +37,7 @@ const LandingPage = () => {
             Stay <span className="text-secondary">Ahead</span>
           </h1>
           <div className="text-tertiary font-custom mb-10 w-3/4">
-            Keeping your shelves up-to-date and patients safe with timely
+            Keeping your shelves up-to-date with and patients safe with timely
             notifications on expiring medicines.
           </div>
           <div>
