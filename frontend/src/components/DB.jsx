@@ -26,15 +26,29 @@ const DB = ({ userQuery }) => {
   }
 
   return (
-    <div>
-      <ul>
-          {data.map((item) => (
-            <li key={item.id}>
-              {item.product_name} - Quantity: {item.quantity}, Price: $
-              {item.price}, Expires on: {item.expiry_date}
-            </li>
-          ))}
-      </ul>
+    <div className="w-full">
+      <table className="bg-tertiary table-auto border-0 w-full rounded-md text-primary">
+        <thead>
+          <tr>
+            <th className="py-2 px-4 text-left">Name</th>
+            <th className="py-2 px-4 text-left">Quantity</th>
+            <th className="py-2 px-4 text-left">Price</th>
+            <th className="py-2 px-4 text-left">Expiry Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item) => {
+            return (
+              <tr key={item.id} className="border-b border-gray-200  ">
+                <td className="py-2 px-4">{item.product_name}</td>
+                <td className="py-2 px-4">{item.quantity}</td>
+                <td className="py-2 px-4">{item.price}</td>
+                <td className="py-2 px-4">{item.expiry_date}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 };
