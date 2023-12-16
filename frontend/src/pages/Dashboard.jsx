@@ -20,12 +20,6 @@ const Dashboard = () => {
       name: 'Expiry Radar',
       path: '/dashboard/expiry',
     },
-
-    {
-      id: 4,
-      name: 'Settings',
-      path: '/dashboard/settings',
-    },
   ];
   return (
     <div id="dashboard_page" className="bg-primary  p-2">

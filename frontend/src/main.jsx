@@ -4,7 +4,7 @@ import LandingPage from './pages/LandingPage';
 import Dashboard from './pages/Dashboard';
 import LiveInventory from './components/LiveInventory';
 import Prediction from './components/Prediction';
-import Settings from './components/Settings';
+
 import Expiry from './components/Expiry';
 
 const router = createBrowserRouter([
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     children: [
       { path: '/dashboard/LiveInventory/', element: <LiveInventory /> },
       { path: '/dashboard/Prediction', element: <Prediction /> },
-      { path: '/dashboard/Settings', element: <Settings /> },
-      {path: '/dashboard/Expiry', element:<Expiry/>}
+
+      { path: '/dashboard/Expiry', element: <Expiry /> },
     ],
   },
 ]);
