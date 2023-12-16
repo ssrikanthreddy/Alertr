@@ -1,9 +1,10 @@
 import DB from './DB';
 
 const LiveInventory = () => {
+  
   return (
     <>
-      <div>Live Inventory</div>
+    
       <div id="data">
         <DB userQuery={'SELECT * FROM products'} />
       </div>

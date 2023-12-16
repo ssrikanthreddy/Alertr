@@ -16,7 +16,13 @@ const Dashboard = () => {
     },
 
     {
-      id: 3,
+      id:3,
+      name: 'Expiry Radar',
+      path: '/dashboard/expiry',
+    },
+
+    {
+      id: 4,
       name: 'Settings',
       path: '/dashboard/settings',
     },

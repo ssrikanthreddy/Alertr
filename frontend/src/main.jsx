@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import LiveInventory from './components/LiveInventory';
 import Prediction from './components/Prediction';
 import Settings from './components/Settings';
+import Expiry from './components/Expiry';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: '/dashboard/LiveInventory/', element: <LiveInventory /> },
       { path: '/dashboard/Prediction', element: <Prediction /> },
       { path: '/dashboard/Settings', element: <Settings /> },
+      {path: '/dashboard/Expiry', element:<Expiry/>}
     ],
   },
 ]);
