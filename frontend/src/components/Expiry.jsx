@@ -13,13 +13,16 @@ const Expiry = () => {
   };
 
   return (
-    <div className="w-full bg-tertiary">
-      <button
-        className="bg-dark py-3 px-5 border-0 rounded-3xl text-white font-custom"
-        onClick={handleButtonClick}
-      >
-        Ping Me
-      </button>
+    <div className="w-full p-6 bg-tertiary border-0 rounded-md">
+      <div className="flex justify-between mb-4">
+        <h2 className="text-3xl text-primary">Expiring within 30 days</h2>
+        <button
+          className="bg-dark py-3 px-5 border-0 hover:bg-yellow-600 rounded-3xl text-white font-custom"
+          onClick={handleButtonClick}
+        >
+          Ping Phone
+        </button>
+      </div>
 
       <div className="border-t-2 border-dark">
         <DB
