@@ -75,30 +75,24 @@ Today's pharmacies face challenges in predicting demand and minimizing losses du
 ## ⚒️ Built Using
 
 <img align="left" alt="html" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-<img align="left" alt="html" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 
-<img align="left" alt="css" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 <img align="left" alt="css" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
           
           
 <img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 
-<img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-<img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+
+<img align="left" alt="tailwind" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+
 
 <img align="left" alt="node" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="node" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 
-<img align="left" alt="npm" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-<img align="left" alt="vite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" />
+
 <img align="left" alt="npm" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
 <img align="left" alt="vite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" />
 
 <img align="left" alt="sqlite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
-<img align="left" alt="sqlite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
-
-<img align="left" alt="sqlite" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+<img align="left" alt="express" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
 
 <br>
 <br>
