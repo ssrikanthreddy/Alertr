@@ -19,7 +19,7 @@
 
 <br>
 
-<p align="center">Alertr uses algorithms to identify and address mental health risks in social media content, offering tailored support and monitoring for suicidal or depressed individuals.</p>
+<p align="center">Alertr is a comprehensive system that generates a prior list of medicines which expire in a month and alerts the admin by sending a notification whenever a medicine expires.</p>
 
 <br>
 
@@ -53,7 +53,7 @@ Today's pharmacies face challenges in predicting demand and minimizing losses du
 
 2. **Expiry Alerts:**
 
-   - Receive live updates on medicines set to expire in the next 30 days.
+   - Receive live updates on medicines set to expire in the next 50 days.
    - Customize the duration for expiry alerts based on your preferences.
 
 3. **Push Notifications:**
@@ -74,25 +74,23 @@ Today's pharmacies face challenges in predicting demand and minimizing losses du
 
 ## ⚒️ Built Using
 
-<img align="left" alt="html" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img align="left" alt="html" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 
-<img align="left" alt="css" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img align="left" alt="css" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
           
           
-<img align="left" alt="react" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 
-<img align="left" alt="react" width="30px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+<img align="left" alt="react" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
 
+<img align="left" alt="node" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 
-<img align="left" alt="node" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+<img align="left" alt="npm" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+<img align="left" alt="vite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" />
 
-<img align="left" alt="npm" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-<img align="left" alt="vite" width="30px" style="padding-right:10px;padding-top:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" />
+<img align="left" alt="sqlite" width="50px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
 
-<img align="left" alt="sqlite" width="30px" style="padding-right:10px;padding-top:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
-
-<img align="left" alt="sqlite" width="30px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
-
+<img align="left" alt="sqlite" width="50px" style="padding-right:10px;padding-top:10px;"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
 
 <br>
 <br>
@@ -177,7 +175,7 @@ To run Alertr locally, follow these steps:
 
 2. **Expiry Alerts:**
 
-   - View live updates on medicines expiring in the next 30 days.
+   - View live updates on medicines expiring in the next 50 days.
 
 3. **Push Notifications:**
 
